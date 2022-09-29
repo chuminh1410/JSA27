@@ -22,4 +22,8 @@ function clickME3() {
 }
 
 
-var myString = JSON.stringify()
+var myString = JSON.stringify(gioHang);
+localStorage.setItem("user",myString);
+var a = localStorage.getItem('user');
+var newUser = JSON.parse(a);
+console.log(newUser.apple);
