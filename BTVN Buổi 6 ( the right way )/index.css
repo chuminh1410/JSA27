@@ -1,0 +1,32 @@
+.rectangle {
+    margin-top: 80px;
+    text-align: center;
+    height: 50px;
+    width: 200px;
+    outline: auto;
+    outline-color: black;
+
+}
+
+.div {
+    line-height: 50px;
+    flex-direction: row;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+    .result{
+        margin-left: 250px;
+        margin-top: 80px;
+        height: 500px;
+        width: 1000px;
+        outline:auto;
+        font-size: 30px;
+}
+#bigtext{
+    padding-top: 30px ;
+    text-align: center;
+}
+body{
+    background-color: aqua;
+}
